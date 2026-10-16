@@ -1,14 +1,16 @@
 # Retail Sales Forecasting & Inventory Optimization System
 
-An end-to-end data science project that combines retail sales forecasting, inventory optimization, and inventory simulation to support data-driven inventory planning.
+An end-to-end data science project combining retail sales forecasting, inventory optimization, and inventory simulation to support data-driven inventory planning.
 
 The project uses simulated retail data to demonstrate how historical sales patterns can be analyzed to forecast future demand, identify products that may need replenishment, and evaluate inventory performance.
+
+> **Important:** All retail data and business results are simulated for educational and portfolio demonstration purposes. They do not represent a real retailer.
 
 ## Project Overview
 
 Retail businesses must maintain enough inventory to meet customer demand without holding excessive stock. Poor inventory planning can contribute to stockouts, lost sales, and unnecessary inventory costs.
 
-This project demonstrates a data-driven approach to these challenges through:
+This project demonstrates a data-driven approach through:
 
 - Retail sales data generation and preprocessing
 - Exploratory Data Analysis (EDA)
@@ -17,10 +19,8 @@ This project demonstrates a data-driven approach to these challenges through:
 - Safety stock and reorder point calculations
 - Inventory replenishment recommendations
 - Virtual inventory simulation
-- An interactive Streamlit dashboard
+- Interactive Streamlit dashboard
 - Automated data validation tests
-
-**Important:** All retail data and business results in this project are simulated for educational and portfolio demonstration purposes. They do not represent a real retailer.
 
 ## Project Objectives
 
@@ -39,7 +39,7 @@ This project demonstrates a data-driven approach to these challenges through:
 | Python | Core programming language |
 | Pandas | Data manipulation and analysis |
 | NumPy | Numerical calculations |
-| Scikit-learn | Machine learning and forecasting models |
+| Scikit-learn | Machine learning |
 | Matplotlib | Data visualization |
 | Seaborn | Exploratory data visualization |
 | Plotly | Interactive charts |
@@ -47,41 +47,23 @@ This project demonstrates a data-driven approach to these challenges through:
 | Pytest | Automated testing |
 | CSV | Data storage and exchange |
 
-## Project Architecture
+## Project Structure
 
 ```text
 Retail-Sales-Forecasting-Inventory-Optimization/
-│
 ├── app/
 │   └── dashboard.py
-│
 ├── data/
-│   ├── raw/
 │   ├── processed/
 │   │   └── cleaned_sales.csv
 │   └── simulated/
 │       ├── sales_history.csv
 │       └── inventory.csv
-│
-├── docs/
-├── images/
-├── models/
-├── notebooks/
-│
 ├── outputs/
 │   ├── figures/
 │   ├── forecasts/
-│   │   ├── sales_forecast.csv
-│   │   └── test_predictions.csv
 │   ├── inventory/
-│   │   ├── inventory_recommendations.csv
-│   │   ├── daily_inventory_simulation.csv
-│   │   └── inventory_simulation_summary.csv
 │   └── metrics/
-│       └── forecast_metrics.csv
-│
-├── reports/
-│
 ├── src/
 │   ├── config.py
 │   ├── data_simulator.py
@@ -90,10 +72,7 @@ Retail-Sales-Forecasting-Inventory-Optimization/
 │   ├── forecasting.py
 │   ├── inventory_optimizer.py
 │   └── inventory_simulator.py
-│
 ├── tests/
 │   └── test_pipeline.py
-│
 ├── requirements.txt
-├── README.md
-└── .gitignore
+└── README.md
