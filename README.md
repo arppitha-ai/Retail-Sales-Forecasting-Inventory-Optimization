@@ -76,3 +76,24 @@ Retail-Sales-Forecasting-Inventory-Optimization/
 │   └── test_pipeline.py
 ├── requirements.txt
 └── README.md
+### Dashboard Preview
+
+#### 1. Business Overview
+
+![Business Overview](images/dashboard/01_dashboard_overview.png)
+
+#### 2. Sales Analysis
+
+![Sales Analysis](images/dashboard/02_sales_analysis.png)
+
+#### 3. Sales Forecasting
+
+![Sales Forecasting](images/dashboard/03_sales_forecasting.png)
+
+#### 4. Inventory Optimization
+
+![Inventory Optimization](images/dashboard/04_inventory_optimization.png)
+
+#### 5. Inventory Simulation
+
+![Inventory Simulation](images/dashboard/05_inventory_simulation.png)
